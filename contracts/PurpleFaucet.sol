@@ -50,7 +50,7 @@ contract PurpleFaucet is Ownable, Pausable {
   public
   onlyOwner()
   whenNotPaused()
-  {
+0x4bcb5c99e652cd7171253515614872988aafb4a50x4bcb5c99e652cd7171253515614872988aafb4a5  {
     // Check that faucet has enough funds
     require(_hasEnoughBalance(), "Faucet has insufficient balance");
     // Check receiver has not withdrawn funds within _lockTime
