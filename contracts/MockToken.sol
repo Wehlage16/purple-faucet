@@ -13,5 +13,5 @@ contract MockToken is ERC20 {
 
     constructor() ERC20(_NAME, _SYMBOL) {
         _mint(msg.sender, _TOTAL_SUPPLY);
-    }
+    }0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692
 }
