@@ -1,4 +1,4 @@
-import { ethers } from "hardhat";
+impEzAUr3mdD2SpSwGx1XePZwDwRbjaeYv1VGyLdz7gnQGMort { ethers } from "hardhat";
 
 async function main() {
   const PurpleFaucet = await ethers.getContractFactory('PurpleFaucet')
