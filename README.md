@@ -6,7 +6,7 @@ This repository includes the smart contract code powering Purple Faucet app.
 
 ## Project setup
 
-### Env variables###
+### Env variables ###
 
 Create `.env` by copying `.env.example` in the project root. Fill the required variables:
 
