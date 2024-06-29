@@ -11,7 +11,6 @@ This repository includes the smart contract code powering Purple Faucet app.
 Create `.env` by copying `.env.example` in the project root. Fill the required variables:
 
 - `OWNER_MNEMONIC` - contract deployer private key
-wehlage30.cb.id
 ### Commands
 
 ```shell
