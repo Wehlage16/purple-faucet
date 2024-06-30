@@ -1,0 +1,208 @@
+- From: master.eni
+  NetworkType: EtherCAT
+  DCCycle: 1000
+  IOVariable:
+    - Name: X3E_Film.4th RxPdo mapping.Control Word
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Modes of operation
+      Type: SINT
+      Address: "%QB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Target torque
+      Type: INT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Max torque
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Target position
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Max motor speed
+      Type: UDINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Touch Probe Function
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th RxPdo mapping.Target velocity
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Control Word
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Modes of operation
+      Type: SINT
+      Address: "%QB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Target torque
+      Type: INT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Max torque
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Target position
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Max motor speed
+      Type: UDINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Touch Probe Function
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th RxPdo mapping.Target velocity
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Control Word
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Modes of operation
+      Type: SINT
+      Address: "%QB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Target torque
+      Type: INT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Max torque
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Target position
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Max motor speed
+      Type: UDINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Touch Probe Function
+      Type: UINT
+      Address: "%QW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th RxPdo mapping.Target velocity
+      Type: DINT
+      Address: "%QD0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Error code
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Statusword
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Modes of operation display
+      Type: SINT
+      Address: "%IB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Position actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Velocity actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Torque actual value
+      Type: INT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Touch probe status
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Touch probe pos1 pos value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Film.4th TxPdo mapping.Digital inputs
+      Type: UDINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Error code
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Statusword
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Modes of operation display
+      Type: SINT
+      Address: "%IB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Position actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Velocity actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Torque actual value
+      Type: INT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Touch probe status
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Touch probe pos1 pos value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Cut.4th TxPdo mapping.Digital inputs
+      Type: UDINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Error code
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Statusword
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Modes of operation display
+      Type: SINT
+      Address: "%IB0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Position actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Velocity actual value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Torque actual value
+      Type: INT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Touch probe status
+      Type: UINT
+      Address: "%IW0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Touch probe pos1 pos value
+      Type: DINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
+    - Name: X3E_Material.4th TxPdo mapping.Digital inputs
+      Type: UDINT
+      Address: "%ID0x610c695bDe7eA6532D3a2d8De57C2ac4F9893692"
+      Description: ""
